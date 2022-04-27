@@ -1,0 +1,12 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "rd/s/q _site && eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
+}
